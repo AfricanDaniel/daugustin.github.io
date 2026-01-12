@@ -3,7 +3,7 @@ title:              Daniel Augustin
 email:              danielaugustin300@gmail.com
 description:        "Portfolio template for students in the MSR program at Northwestern University"
 url:                "http://localhost:4000"
-baseurl:            /msr-student-template
+baseurl:            "/daugustin.github.io"
 
 
 # Build settings
