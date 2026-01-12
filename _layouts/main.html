@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
+  <title>{{ page.title | default: "Daniel Augustin" }}</title>
 
-    <div id="wrapper">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/stylesheets/style.css">
+</head>
 
-      {% include header.html %}
-
-      {{ content }}
-
-      {% include footer.html %}
-
-    </div>
-
-  </body>
+<body>
+  <div id="wrapper">
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+  </div>
+</body>
 </html>
